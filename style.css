@@ -1,0 +1,127 @@
+/* Reset básico e Fontes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #7da1f7; /* Cor do fundo externo */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-container {
+    background-color: #0026ff; /* Azul royal do fundo */
+    width: 100%;
+    max-width: 1000px;
+    padding-bottom: 30px;
+    border: 2px solid #000;
+}
+
+/* Header */
+header {
+    text-align: center;
+    color: white;
+}
+
+.logo-box {
+    background-color: #0044ab;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.logo-box h1 {
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.slogan-bar {
+    background-color: #0044ab;
+    margin: 0 10%;
+    padding: 5px;
+}
+
+.slogan-bar h2 {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.phone {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+/* Grid Principal */
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 15px;
+    padding: 0 20px;
+}
+
+/* Imagens */
+.img-frame img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.side-images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon-frame {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-frame img {
+    width: 120px;
+}
+
+/* Blocos de Texto */
+.center-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-block {
+    background-color: #7da1f7; /* Azul claro dos boxes */
+    padding: 20px;
+    color: #000;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.info-box {
+    flex-grow: 1;
+}
+
+.alert-box {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+/* Ajuste fino para a foto do passageiro embaixo */
+.passenger-img {
+    margin-top: 20px;
+}
